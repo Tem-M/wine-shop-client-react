@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Tel Aviv";
+  src:
+    local("Tel Aviv Brutalist Regular");
+}
+
+* {
+  font-family: "Tel Aviv";
+  direction:rtl;
+}
+
+
+.product {
+  width: 240px;
+  height: 240px;
+  flex-shrink: 0;
+  margin:30px;
+  text-align:center;
+  color: #5B0032;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.products {
+  margin: 52, 42, 52, 42;
+  width:100%;
+  height:auto;
+  margin-right:42px;
+  margin-left:42px;
+  margin-bottom:50px;
+}
+
+.product > h5 {
+  margin-top:224px; 
+}
+
+.nav {
+  width:100%;
+  height: 12%;
+  text-align: right;
+  background-image: url("../public/close-up-wine-stain-detail 1.png");
+  background-size:cover;
+  margin-bottom: 52px;
+}
+
+.nav-item {
+  margin-top:4%;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left:0.4%;
+  margin-right:0.4%;
+}
+
+.singleProduct {
+  text-align: center;
+  width:80%;
+  margin:auto;
+  display: flex;
+  flex-direction:row-reverse;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+input, button, form {
+  text-align: center;
+}
+
+.nav-link {
+  color:#000;
+}
+
+.nav-link > .active {
+  color: #5B0032;
+}
+
+.login {
+  background-image: url("../public/close-up-wine-stain-detail 2.png");
+  background-size:cover;
+  position:absolute;
+  bottom:0%;
+  width:100%;
+  top: 22%; 
+  padding-top:5%;
+  background-position-y: 100%;
+}
+
+button {
+  background-color: #5B0032;
+  color:white;
+  outline:none;
+  border-style:none;
+  margin:4px;
+}
+
+.cart-button {
+  background-color: #fff;
+  color:black;
+  border-radius: 0px;
+  outline-color:black;
+}
+
+.banner-wines {
+  background-image: url("../public/close-up-wine-stain-detail\ \(1\)\ 1.png");
+  background-size:cover;
+  height:183px;
+  margin-right:42px;
+  margin-left:42px;
+  margin-bottom:50px;
+  text-align: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-banner {
+  display: flex;
+  flex-direction: row;
+  background-color: #E6E3E6;
+  height:228px;
+}
+
+.homepage-banner-text {
+  height:inherit;
+}
+
+.hompage-banner-image {
+  background-image: url("../public/home-page-cork-screw-pic.jpeg");
+  background-size:cover;
+  background-position:0%;
+}
+.Home {
+  display: flex;
+  flex-direction: column;
+  width:90%;
+  margin:auto;
+
+}
+
+.hompage-products {
+  margin-right:42px;
+  margin-left:42px;
+}
+
+.homepage-product {
+  width: 440px;
+  height: 440px;
+  flex-shrink: 0;
+  margin:30px;
+  text-align:center;
+  color: #5B0032;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homepage-product > h5 {
+  margin-top: 424px;
+}
+
+table {
+  float:left;
+}
+td {
+  width:25%;
+}
+tr {
+  float:left;
+}
+
+.cart {
+  display:flex;
+  flex-direction: column;
+}
+
+.cart > div {
+  margin-right:40px;
+}
+
+input {
+  border:none;
+  outline:none;
+}
